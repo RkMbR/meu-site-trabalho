@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 130vh;
+    box-sizing: border-box;
+    color: white;
+    background-image: url(assets/fundo-site.jpg);
+}
+
+.destaque {
+    color: rgb(41, 236, 2);
+}
+
+.cabeca {
+    background-image: url(assets/Banner-canal.png);
+    height: 170px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1200px;
+    border: 5px solid rgba(139, 139, 139, 0.39);
+}
+
+.cabeca-imagem {
+    border-radius: 24px;
+    height: 120px;
+    width: 120px;
+    border: 4px solid #ffffff3f;
+}
+
+.cabeca-link {
+    background-color: rgba(90, 0, 0, 0.705);
+    border-radius: 16px;
+    border: 2px solid #ffffff3f;
+    width: 150px;
+    padding: 15px;
+}
+
+.cabeca-link:hover {
+    background-color: rgba(59, 59, 59, 0.658);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.cabeca-link-ancora {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 15px;
+}
+
+.corpo {
+    margin: 5% 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.corpo-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.corpo-conteudo-texto {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.corpo-conteudo-titulo {
+    font-family: "Krona One", sans-serif;
+}
+
+.corpo-conteudo-subtitulo {
+    font-family: "Krona One", sans-serif;
+}
+
+.corpo-conteudo-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+
+.corpo-conteudo-ancora {
+    width: 378px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.075);
+    border: 2px solid #ffffff3f;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    gap: 10px;
+}
+
+.corpo-conteudo-ancora:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rodape {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rodape-botao {
+    background-color: rgba(49, 13, 207, 0.267);
+    width: 170px;
+    border-radius: 8px;
+    border: 2px solid #ffffff3f;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.rodape-botao-ancora  {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.rodape-botao:hover  {
+    background-color: rgba(128, 128, 128, 0.089);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.rodape-texto1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.rodape-texto2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.formulario-corpo {
+    margin: 8% 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.formulario-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.068);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario-conteudo-texto {
+    background-color: rgba(0, 0, 0, 0.137);
+    color: white;
+    font-family: "Krona One", sans-serif;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3d3d3d6e;
+    border-radius: 8px;
+    outline: none;
+}
+
+.formulario-conteudo-botao {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.075);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.formulario-conteudo-botao:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.formulario-corpo-ancora {
+    width: 378px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.075);
+    border: 2px solid #ffffff3f;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    gap: 10px;
+}
+
+.formulario-corpo-ancora:hover {
+    background-color: rgba(128, 128, 128, 0.089);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
