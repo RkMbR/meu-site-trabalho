@@ -26,15 +26,11 @@ body {
   }
 
   .corpo-conteudo-titulo {
-    font-size: 1rem;       
-    padding: 5px;
-    text-align: left;     
+    font-size: 1.2rem;  
   }
   
   .corpo-conteudo-texto {
-    font-size: 0.9rem; 
-    padding: 5px;
-    text-align: left;
+    font-size: 0.85rem; 
   }
   
   .corpo-conteudo-links {
@@ -150,10 +146,18 @@ img {
 .corpo-conteudo-texto {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    max-width: 90%; 
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 90%;
+    font-size: 1rem;
 }
 
 .corpo-conteudo-titulo {
     font-family: "Krona One", sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .corpo-conteudo-subtitulo {
