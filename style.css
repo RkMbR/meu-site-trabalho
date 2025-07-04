@@ -17,8 +17,10 @@ body {
 }
 
 @media (max-width: 480px) {
-  main {
+  .corpo {
     flex-direction: column;
+    width: 100%;
+    margin: 5% 5%;
   }
 
   .corpo-conteudo {
@@ -26,11 +28,11 @@ body {
   }
 
   .corpo-conteudo-titulo {
-    font-size: 0.7rem;  
+    font-size: 1.2rem;;  
   }
   
   .corpo-conteudo-texto {
-    font-size: 0.55rem; 
+    font-size: 0.8rem; 
   }
   
   .corpo-conteudo-links {
@@ -137,7 +139,8 @@ img {
 }
 
 .corpo-conteudo {
-    width: 615px;
+    max-width: 615px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -149,8 +152,9 @@ img {
     max-width: 90%; 
     text-align: justify;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
     font-size: 1rem;
+    word-wrap: break-word;
 }
 
 .corpo-conteudo-titulo {
