@@ -30,6 +30,11 @@ body {
   }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .destaque {
     color: rgb(41, 236, 2);
 }
