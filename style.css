@@ -16,71 +16,6 @@ body {
     background-attachment: fixed; 
 }
 
-@media (max-width: 480px) {
-  .corpo {
-    flex-direction: column;
-    width: 100%;
-    margin: 5% 5%;
-  }
-
-  .corpo-conteudo {
-    text-align: center;
-  }
-
-  .corpo-conteudo-titulo {
-    font-size: 1.2rem;;  
-  }
-  
-  .corpo-conteudo-texto {
-    font-size: 0.8rem; 
-  }
-  
-  .corpo-conteudo-links {
-    justify-content: center;
-    width: 100%;             
-    max-width: 90%;          
-    margin: 0 auto;
-  }
-
-  .corpo-conteudo-ancora {
-    width: 100%; 
-    box-sizing: border-box;
-    font-size: 0.85rem;          
-    padding: 8px;
-    justify-content: center;
-  }
-
-  .corpo-conteudo-subtitulo {
-    text-align: center;
-  }
-
-  .cabeca {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .cabeca-link-ancora {
-    font-size: 0.9rem;
-  }
-
-  .cabeca-imagem {
-    max-width: 80px;
-  }
-
-  .rodape-texto1 {
-    font-size: 0.8rem;
-    padding: 4px;
-    text-align: center;
-  }
-
-  .rodape-texto2 {
-    font-size: 0.8rem;
-    padding: 4px;
-    text-align: center;
-  }
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -179,7 +114,7 @@ img {
 }
 
 .corpo-conteudo-ancora {
-    width: 378px;
+    width: 340px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.075);
     border: 2px solid #ffffff3f;
@@ -311,4 +246,75 @@ img {
 .formulario-corpo-ancora:hover {
     background-color: rgba(128, 128, 128, 0.089);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 480px) {
+  .corpo {
+    flex-direction: column;
+    width: 100%;
+    margin: 5% 5%;
+  }
+
+  .corpo-conteudo {
+    text-align: center;
+  }
+
+  .corpo-conteudo-titulo {
+    font-size: 1.2rem;;  
+  }
+  
+  .corpo-conteudo-texto {
+    font-size: 0.8rem; 
+  }
+  
+  .corpo-conteudo-links {
+    justify-content: center;
+    width: 100%;             
+    max-width: 90%;          
+    margin: 0 auto;
+  }
+
+  .corpo-conteudo-ancora {
+    width: 100%; 
+    box-sizing: border-box;
+    font-size: 0.85rem;          
+    padding: 8px;
+    justify-content: center;
+  }
+
+  .corpo-conteudo-subtitulo {
+    text-align: center;
+  }
+
+  .cabeca {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .cabeca-link-ancora {
+    font-size: 0.9rem;
+  }
+
+  .cabeca-imagem {
+    max-width: 80px;
+  }
+
+  .rodape-texto1 {
+    font-size: 2px;
+    padding: 4px;
+    text-align: center;
+  }
+
+  .rodape-texto2 {
+    font-size: 10px;
+    padding: 4px;
+    text-align: center;
+  }
+
+  .formulario-corpo-ancora {
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+  }
 }
