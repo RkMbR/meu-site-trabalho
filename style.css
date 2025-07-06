@@ -254,12 +254,20 @@ img {
     margin: 2% 1%;
   }
 
+  .corpo-conteudo {
+    gap: 25px;
+  }
+  
   .corpo-conteudo-titulo {
-    font-size: 1.0rem;;  
+    font-size: 16px;;  
   }
   
   .corpo-conteudo-texto {
-    font-size: 0.7rem; 
+    font-size: 10px; 
+  }
+
+  .corpo-conteudo-subtitulo {
+    font-size: 16px;
   }
   
   .corpo-conteudo-links {
@@ -271,11 +279,13 @@ img {
 
   .corpo-conteudo-ancora {
     width: 100%; 
-    box-sizing: border-box;
     font-size: 0.85rem;          
     padding: 8px;
-    justify-content: center;
-    width: 200px;
+    width: 150px;
+  }
+
+  .corpo-conteudo-imagens {
+    width: 15px;
   }
 
   .corpo-conteudo-subtitulo {
