@@ -252,15 +252,11 @@ img {
   .corpo {
     flex-direction: column;
     width: 100%;
-    margin: 5% 5%;
-  }
-
-  .corpo-conteudo {
-    text-align: center;
+    margin: 2% 1%;
   }
 
   .corpo-conteudo-titulo {
-    font-size: 1.1rem;;  
+    font-size: 1.0rem;;  
   }
   
   .corpo-conteudo-texto {
@@ -280,7 +276,7 @@ img {
     font-size: 0.85rem;          
     padding: 8px;
     justify-content: center;
-    width: 100px;
+    width: 200px;
   }
 
   .corpo-conteudo-subtitulo {
@@ -301,6 +297,12 @@ img {
     max-width: 80px;
   }
 
+  .rodape-botao {
+    width: 70px;
+    height: 25px;
+    padding: 10px;
+  }
+
   .rodape-texto1 {
     font-size: 10px;
     padding: 4px;
@@ -317,5 +319,9 @@ img {
     display: flex;
     width:100%;
     justify-content: space-around;
+  }
+
+  .rodape-botao-ancora {
+    font-size: 12px;
   }
 }
