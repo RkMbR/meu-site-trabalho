@@ -251,7 +251,6 @@ img {
 @media (max-width: 480px) {
   .corpo {
     flex-direction: column;
-    width: 100%;
     margin: 2% 1%;
   }
 
@@ -281,6 +280,12 @@ img {
 
   .corpo-conteudo-subtitulo {
     text-align: center;
+  }
+
+  .corpo-conteudo-imagem {
+    margin-top: 20px;
+    width: 200px;
+    height: 220px;
   }
 
   .cabeca {
