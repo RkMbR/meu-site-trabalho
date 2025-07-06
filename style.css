@@ -279,13 +279,13 @@ img {
 
   .corpo-conteudo-ancora {
     width: 100%; 
-    font-size: 0.85rem;          
-    padding: 8px;
-    width: 150px;
+    font-size: 15px;          
+    padding: 15px;
+    width: 140px;
   }
 
   .corpo-conteudo-imagens {
-    width: 15px;
+    width: 20px;
   }
 
   .corpo-conteudo-subtitulo {
@@ -312,10 +312,14 @@ img {
     max-width: 80px;
   }
 
+  .rodape {
+    height: 50px;
+  }
+  
   .rodape-botao {
-    width: 70px;
-    height: 25px;
-    padding: 10px;
+    width: 65px;
+    height: 20px;
+    padding: 8px;
   }
 
   .rodape-texto1 {
@@ -330,13 +334,26 @@ img {
     text-align: center;
   }
 
+  .rodape-botao-ancora {
+    font-size: 12px;
+  }
+  
+  .formulario-corpo {
+    justify-content: center;
+    margin: 8% 20%;
+  }
+  
   .formulario-corpo-ancora {
     display: flex;
     width:100%;
     justify-content: space-around;
+    font-size: 16px;
+    width: 150px;
   }
 
-  .rodape-botao-ancora {
-    font-size: 12px;
+  .formulario-conteudo {
+    width: 190px;
+    height: 300px;
+    margin-right: 10px
   }
 }
